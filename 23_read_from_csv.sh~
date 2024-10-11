@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# reading from a csv file
+
+while IFS="," read id name age
+do
+	echo "Id is $id, Name is $name and age is $age"
+done < test.csv
